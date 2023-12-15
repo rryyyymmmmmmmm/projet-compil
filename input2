@@ -1,0 +1,41 @@
+INT X ,H,J;
+INT I;
+FLOAT F;
+BOOL M1, M2,B1,B2;
+
+CONST INT I1 := 6;
+CONST FLOAT F2:= 6.2 ;
+CONST BOOL B := FALSE ;
+
+BEGIN 
+
+FOR (I := 0 , I < 10, I++) {
+
+}
+IF(X > 2) {
+    IF(X > 2) {
+        WHILE(TRUE) {
+        X := 5;
+    }   
+    } ELIF (X < 1) {
+
+    } ELSE {
+
+    }
+} ELIF (X < 1) {
+
+} ELSE {
+
+}
+
+DO {
+    X := 2;
+} WHILE(TRUE)
+
+WHILE(TRUE) {
+    X := 5;
+}
+
+END 
+
+/*COMMENTAIRE*/

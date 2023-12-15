@@ -1,0 +1,26 @@
+Lexical Errors:
+
+1 - LEXICAL_ERROR: General lexical error.
+INVALID_CHARACTER: Invalid character '%c' at line %d, column %d.
+UNTERMINATED_STRING: Unterminated string literal at line %d, column %d.
+Syntax Errors:
+
+2 - SYNTAX_ERROR: General syntax error.
+    2 :UNEXPECTED_TOKEN: Unexpected token '%s' at line %d, column %d.
+    2 :MISSING_SEMICOLON: Missing semicolon at the end of statement at line %d, column %d.
+    2 :UNMATCHED_BRACES: Unmatched '%c' at line %d, column %d.
+    24: PROGRAM_EMPTY: Le programme est vide.
+Semantic Errors:
+
+3 - SEMANTIC_ERROR: General semantic error.
+    31 : UNDECLARED_VARIABLE: Undeclared variable '%s' at line %d, column %d.
+    32 : TYPE_MISMATCH: Type mismatch in expression at line %d, column %d.
+    33 : INVALID_OPERATION: Invalid operation for type '%s' at line %d, column %d. /*par example ki ndir + m3a les booleans*/
+    34 : DIVISION_BY_ZERO: Division by zero at line %d, column %d.
+    35 : VARIABLE_ALREADY_DECLARED: La variable %s est déjà définie.
+
+erreur syntaxiques : 
+
+
+
+

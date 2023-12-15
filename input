@@ -1,0 +1,17 @@
+INT X ,H,J;
+
+FLOAT X;
+BOOL J;
+
+BOOL Y;
+
+BEGIN 
+
+X := 2+2;
+Y := 2;
+Y := TRUE;
+
+END 
+
+/*COMMENTAIRE*/
+
